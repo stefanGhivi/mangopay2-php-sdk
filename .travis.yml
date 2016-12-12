@@ -6,6 +6,8 @@ before_script:
 - composer require deployer/deployer ^4.0
 - composer require symfony/yaml 2.7
 - composer require enrise/travisdeployer ^0.2.0
+script:
+- phpunit test/suites/all.php
 travisdeployer:
   verbose: false
   branches:
