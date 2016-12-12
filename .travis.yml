@@ -11,7 +11,7 @@ before_script:
 travisdeployer:
   verbose: false
   branches:
-    travis-test: production
+    master: production
 after_success:
 - vendor/bin/travisdeployer
 before_install:
