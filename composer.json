@@ -1,5 +1,6 @@
 {
-    "name": "mangopay/php-sdk-v2",
+    "name": "mangopay/php-test",
+    "version": "v1.0.0-alpha",
     "description": "SDK PHP for Mangopay api V2",
     "minimum-stability": "stable",
     "license": "MIT",
