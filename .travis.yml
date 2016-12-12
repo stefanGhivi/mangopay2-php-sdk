@@ -15,4 +15,4 @@ travisdeployer:
 after_success:
 - vendor/bin/travisdeployer
 before_install:
-- openssl aes-256-cbc -K $encrypted_9037a3e6a828_key -iv $encrypted_9037a3e6a828_iv -in deploy.php.enc -out deploy.php -d
+- openssl aes-256-cbc -K $encrypted_9037a3e6a828_key -iv $encrypted_9037a3e6a828_key -in deploy.php.enc -out deploy.php -d
