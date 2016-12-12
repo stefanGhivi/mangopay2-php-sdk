@@ -1,5 +1,5 @@
 {
-    "name": "stefanGhivi/php-test",
+    "name": "stefan-ghivi/php-test",
     "version": "v1.0.0-alpha",
     "description": "SDK PHP for Mangopay api V2",
     "minimum-stability": "stable",
