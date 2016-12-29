@@ -1,8 +1,8 @@
 <?php
 
 namespace MangoPay\Tests;
-
-require_once ($_SERVER['DOCUMENT_ROOT'].'/simpletest/autorun.php');
+define('__ROOT__', dirname(dirname(__FILE__)));
+require_once (__ROOT__.'/simpletest/autorun.php');
 
 /**
  * Runs all test cases
@@ -11,7 +11,7 @@ class All extends \TestSuite {
 
     function __construct() {
         parent::__construct();
-        $this->collect('../cases', new TestCasesCollector());
+        $this->collect(__ROOT__.'/cases', new TestCasesCollector());
     }
 }
 
