@@ -1,8 +1,8 @@
 <?php
 
 namespace MangoPay\Tests;
-
-require_once '../simpletest/autorun.php';
+define('__ROOT__', dirname(dirname(__FILE__)));
+require_once __ROOT__.'/simpletest/autorun.php';
 require_once '../../vendor/autoload.php';
 require_once '../mocks/mockStorageStrategy.php';
 
