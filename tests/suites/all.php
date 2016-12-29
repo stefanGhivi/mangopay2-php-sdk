@@ -1,8 +1,8 @@
 <?php
 
 namespace MangoPay\Tests;
-define('__ROOT__', dirname(dirname(__FILE__)));
-require_once (__ROOT__.'/simpletest/autorun.php');
+
+require_once ($_SERVER['DOCUMENT_ROOT'].'/simpletest/autorun.php');
 
 /**
  * Runs all test cases
