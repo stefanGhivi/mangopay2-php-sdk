@@ -2,7 +2,7 @@
 
 namespace MangoPay\Tests;
 
-require_once ('../simpletest/autorun.php');
+require_once ($_SERVER['DOCUMENT_ROOT'].'/simpletest/autorun.php');
 
 /**
  * Runs all test cases
