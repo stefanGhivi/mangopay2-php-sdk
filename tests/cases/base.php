@@ -3,8 +3,8 @@
 namespace MangoPay\Tests;
 
 require_once __ROOT__.'/simpletest/autorun.php';
-require_once '../../vendor/autoload.php';
-require_once '../mocks/mockStorageStrategy.php';
+require_once __ROOT__.'../../vendor/autoload.php';
+require_once __ROOT__.'../mocks/mockStorageStrategy.php';
 
 set_time_limit(0);
 
